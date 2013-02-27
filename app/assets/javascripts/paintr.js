@@ -10,7 +10,7 @@ $('#allimages').on('click', '.imgbox', set_image);
 
 //colors divs choos color /
 $('#canvas').on('click', '.paint', paint_color);
-$('#canvas').on('click', '.paint', paint_color);
+$('#canvas').on('mouseover', '.paint', paint_color);
 
 
 //clearers
@@ -76,7 +76,7 @@ function paint_color()
 //creates boxes
 
 function create_paint_boxes(){
- for(var i = 0; i < 1000; i++)
+ for(var i = 0; i < 2500; i++)
  {
   var paint = $('<div>');
   paint.addClass('paint');

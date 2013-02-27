@@ -4,11 +4,20 @@ height: 20px;
 border: 1px dotted black;
 border-radius: 10px;
 margin: 0px;
-float: left;}
+float: left;
+}
+
+.paint
+{
+     -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+
+}
 
 .imgbox
-{width: 40px;
-height: 40px;
+{width: 80px;
+height: 80px;
 border: 1px solid black;
 border-radius: 10px;
 margin: 0px;
@@ -57,14 +66,37 @@ input
 #backimage
 {
 max-width: 800px;
+max-height: 800px;
 overflow: auto;
 border: 1px solid black;
+margin:0 auto;
+margin-top: 100px;
+background-size: cover;
 }
 
 #allimages
 {
 
-  background: red;
-  width: 400px;
-  height: 400px;
+  background: #ddd;
+  width: 320px;
+  height: 320px;
+  padding: 10px;
+  border: 2px dotted royalblue;
+}
+
+button
+{
+ font-size: 20px;
+ background: pink;
+ margin-top: 5px;
+}
+
+table
+{
+  -webkit-transform: rotate(1deg);
+-moz-transform: rotate(1deg);
+-ms-transform: rotate(1deg);
+-o-transform: rotate(1deg);
+transform: rotate(1deg);
+
 }

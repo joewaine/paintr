@@ -1,28 +1,43 @@
+%table
+  %tr
+    %td
+      add color
+      %br
+      %br
+      = text_field_tag 'color'
+      %br
+      %button#addcolor add colour
+      %button#clear clear
+      %br
+      %br
+      %br
+      %br
+      %br
+      #selected.box
+      %br
+      %br
+      after adding a color, click to choose a color to paint with
+      %br
+      #colors
+      .clear
+    %td
+      %br
+      add image
+      %br
+      %br
+      = text_field_tag 'url'
+      %br
+      %button#addimg add img url
+      %button#img clear img
+      %br
+      %br
+      after adding an img url, click a thumbnail to add behind your canvas!
+      %br
+      %br
+      #allimages
+      .clear
+      #backimage
+        #canvas
+      %br
+      scroll down for more painting space!
 
-add color
-#selected.box
-= text_field_tag 'color'
-%button#addcolor add
-%button#clear clear
-
-#colors
-.clear
-
-
-%br
-
-add image
-= text_field_tag 'url'
-%button#addimg addimg
-%button#imgclear clearimg
-%br
-%br
-%br
-%br
-
-
-#backimage
-  #canvas
-
-#allimages
-.clear
