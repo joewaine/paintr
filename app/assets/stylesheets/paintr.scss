@@ -1,0 +1,70 @@
+.box
+{width: 20px;
+height: 20px;
+border: 1px dotted black;
+border-radius: 10px;
+margin: 0px;
+float: left;}
+
+.imgbox
+{width: 40px;
+height: 40px;
+border: 1px solid black;
+border-radius: 10px;
+margin: 0px;
+color: violet;
+float: left;
+background-size: cover;}
+
+.slctdimgbox
+{width: 40px;
+height: 40px;
+border: 1px solid black;
+border-radius: 10px;
+margin: 0px;
+color: violet;
+float: left;
+background-size: cover;}
+
+.clear
+{
+  clear:both;
+}
+
+.imageurl
+{
+width: 100px;
+height: 100px;
+background: green;
+float: left;}
+
+
+input
+{
+  width: 300px;
+}
+
+.paint
+{
+  width: 25px;
+  height: 25px;
+  margin: 0px;
+  float: left;
+  border: 0px solid black;
+  opacity: 0.7;
+}
+
+#backimage
+{
+max-width: 800px;
+overflow: auto;
+border: 1px solid black;
+}
+
+#allimages
+{
+
+  background: red;
+  width: 400px;
+  height: 400px;
+}
